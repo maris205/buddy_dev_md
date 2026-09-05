@@ -8,6 +8,31 @@
 - **查完整性**：[同步报告](SYNC_REPORT.md)、[原文待核对事项](wiki/source-notes.md)。
 - **找素材**：[图片与附件索引](assets/README.md)。
 
+## 在 Codex 中使用（快速开始）
+
+1. 下载本仓库，或执行 `git clone https://github.com/maris205/buddy_dev_md.git`。
+2. 在 Codex 中打开你要开发的项目，并确保当前任务能读取知识库所在目录。
+3. 复制下面的提示词，把路径和需求改成自己的即可：
+
+```text
+请参考本地 WorkBuddy 知识库：D:\paper\buddy_dev_md。
+先读该目录的 AGENTS.md、README.md 和 wiki/development-map.md，
+再按任务读取相关 docs/ 官方规范和 guides/ 开发指南，不必一次读取全库。
+字段、目录结构、鉴权和接口以 docs/ 原文为依据，注明参考文件；
+文档缺失或矛盾时明确指出，需要最新规范时核查 source_url。
+
+我要开发：【具体的 Skill、连接器或应用需求】。
+代码放在：【开发项目的绝对路径】。
+```
+
+仅阅读文档不需要安装 Python 依赖或配置 MCP。使用 Git 克隆的副本可通过 `git pull` 更新；要检查官网变化，见下方“更新与验证”。
+
+### 能封装成 Skill 吗？
+
+可以。建议做一个轻量的 `workbuddy-dev` Skill：在 `SKILL.md` 中定义触发条件和阅读流程，按需读取本地知识库，避免把所有文档和图片复制进技能。使用时由用户提供知识库路径，方便换电脑和独立更新。
+
+Codex 支持在项目的 `.agents/skills/workbuddy-dev/SKILL.md` 中定义技能；主文件需要 `name` 和 `description`。这是后续封装方案，当前仓库直接用上面的提示词即可。参见 [OpenAI 官方 Skill 指南](https://learn.chatgpt.com/docs/build-skills)。
+
 ## 内容边界
 
 `docs/` 是官方正文镜像，不把整理者的建议写进规范。`wiki/` 和 `guides/` 是基于原文整理的阅读路径与开发建议，每篇给出来源。示例代码和附件按原样保存，尚未通过真实 WorkBuddy 运行、登录授权或发布审核验证。

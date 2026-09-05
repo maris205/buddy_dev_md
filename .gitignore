@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+.obsidian/workspace*.json
+.obsidian/cache/
+.sync/staging/
+.sync/*-console.log

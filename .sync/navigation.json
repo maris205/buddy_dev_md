@@ -1,0 +1,655 @@
+[
+  {
+    "url": "https://open.workbuddy.cn/docs/what-is-open-platform",
+    "title": "开放平台概述",
+    "group": "介绍",
+    "headings": [
+      {
+        "id": "平台简介",
+        "text": "平台简介",
+        "depth": 2
+      },
+      {
+        "id": "快速开始",
+        "text": "快速开始",
+        "depth": 2
+      },
+      {
+        "id": "平台优势",
+        "text": "平台优势",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/onboarding",
+    "title": "入驻开放平台",
+    "group": "入驻指南",
+    "headings": [
+      {
+        "id": "企业认证",
+        "text": "企业认证",
+        "depth": 2
+      },
+      {
+        "id": "管理员实名认证",
+        "text": "管理员实名认证",
+        "depth": 2
+      },
+      {
+        "id": "上传企业信息",
+        "text": "上传企业信息",
+        "depth": 2
+      },
+      {
+        "id": "完成企业验证",
+        "text": "完成企业验证",
+        "depth": 2
+      },
+      {
+        "id": "认证结果与规则",
+        "text": "认证结果与规则",
+        "depth": 2
+      },
+      {
+        "id": "个人认证",
+        "text": "个人认证",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/developer-profile",
+    "title": "开发者profile",
+    "group": "入驻指南",
+    "headings": [
+      {
+        "id": "编辑开发者信息",
+        "text": "编辑开发者信息",
+        "depth": 2
+      },
+      {
+        "id": "开发者头像",
+        "text": "开发者头像",
+        "depth": 2
+      },
+      {
+        "id": "开发者昵称",
+        "text": "开发者昵称",
+        "depth": 2
+      },
+      {
+        "id": "开发者简介",
+        "text": "开发者简介",
+        "depth": 2
+      },
+      {
+        "id": "联系方式",
+        "text": "联系方式",
+        "depth": 2
+      },
+      {
+        "id": "开发者主页展示内容",
+        "text": "开发者主页展示内容",
+        "depth": 2
+      },
+      {
+        "id": "内容合规与违规处置",
+        "text": "内容合规与违规处置",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/skill",
+    "title": "技能",
+    "group": "开发",
+    "headings": [
+      {
+        "id": "技能市场",
+        "text": "技能市场",
+        "depth": 2
+      },
+      {
+        "id": "技能基础结构",
+        "text": "技能基础结构",
+        "depth": 2
+      },
+      {
+        "id": "子资源目录说明",
+        "text": "子资源目录说明",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/connector",
+    "title": "连接器",
+    "group": "开发",
+    "headings": [
+      {
+        "id": "选择接入方式",
+        "text": "选择接入方式",
+        "depth": 2
+      },
+      {
+        "id": "mcp-skill-接入",
+        "text": "MCP + Skill 接入",
+        "depth": 2
+      },
+      {
+        "id": "cli-skill-接入",
+        "text": "CLI + Skill 接入",
+        "depth": 2
+      },
+      {
+        "id": "连接器元信息",
+        "text": "连接器元信息",
+        "depth": 2
+      },
+      {
+        "id": "skill-文件",
+        "text": "Skill 文件",
+        "depth": 2
+      },
+      {
+        "id": "认证与凭证",
+        "text": "认证与凭证",
+        "depth": 2
+      },
+      {
+        "id": "图标规范",
+        "text": "图标规范",
+        "depth": 2
+      },
+      {
+        "id": "提交前检查",
+        "text": "提交前检查",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/expert",
+    "title": "专家",
+    "group": "开发",
+    "headings": [
+      {
+        "id": "专家市场",
+        "text": "专家市场",
+        "depth": 2
+      },
+      {
+        "id": "基础结构",
+        "text": "基础结构",
+        "depth": 2
+      },
+      {
+        "id": "配置文件",
+        "text": "配置文件",
+        "depth": 2
+      },
+      {
+        "id": "字段说明",
+        "text": "字段说明",
+        "depth": 2
+      },
+      {
+        "id": "agent定义文件",
+        "text": "Agent定义文件",
+        "depth": 2
+      },
+      {
+        "id": "内置-mcp-与连接器依赖可选",
+        "text": "内置 MCP 与连接器依赖（可选）",
+        "depth": 2
+      },
+      {
+        "id": "头像规范",
+        "text": "头像规范",
+        "depth": 2
+      },
+      {
+        "id": "行业分类",
+        "text": "行业分类",
+        "depth": 2
+      },
+      {
+        "id": "模板文件",
+        "text": "模板文件",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/expert-team",
+    "title": "专家团",
+    "group": "开发",
+    "headings": [
+      {
+        "id": "基础结构",
+        "text": "基础结构",
+        "depth": 2
+      },
+      {
+        "id": "配置文件",
+        "text": "配置文件",
+        "depth": 2
+      },
+      {
+        "id": "agent定义文件",
+        "text": "Agent定义文件",
+        "depth": 2
+      },
+      {
+        "id": "内置-mcp-与连接器依赖可选",
+        "text": "内置 MCP 与连接器依赖（可选）",
+        "depth": 2
+      },
+      {
+        "id": "头像规范",
+        "text": "头像规范",
+        "depth": 2
+      },
+      {
+        "id": "模板文件",
+        "text": "模板文件",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/buddy-app",
+    "title": "Buddy应用",
+    "group": "开发",
+    "headings": [
+      {
+        "id": "产品概述",
+        "text": "产品概述",
+        "depth": 2
+      },
+      {
+        "id": "核心定位",
+        "text": "核心定位",
+        "depth": 2
+      },
+      {
+        "id": "六大自定义维度",
+        "text": "六大自定义维度",
+        "depth": 2
+      },
+      {
+        "id": "workbuddy-基础能力",
+        "text": "WorkBuddy 基础能力",
+        "depth": 2
+      },
+      {
+        "id": "配置指引",
+        "text": "配置指引",
+        "depth": 2
+      },
+      {
+        "id": "buddy应用设计规范",
+        "text": "Buddy应用设计规范",
+        "depth": 2
+      },
+      {
+        "id": "发布流程",
+        "text": "发布流程",
+        "depth": 2
+      },
+      {
+        "id": "最佳实践建议",
+        "text": "最佳实践建议",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/third-party-app",
+    "title": "第三方应用",
+    "group": "开发",
+    "headings": [
+      {
+        "id": "接入介绍",
+        "text": "接入介绍",
+        "depth": 2
+      },
+      {
+        "id": "接入指南",
+        "text": "接入指南",
+        "depth": 2
+      },
+      {
+        "id": "应用注册与授权认证",
+        "text": "应用注册与授权认证",
+        "depth": 2
+      },
+      {
+        "id": "权限配置列表及关联-api",
+        "text": "权限配置列表及关联 API",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/openapi",
+    "title": "Open API 接口",
+    "group": "开发",
+    "headings": [
+      {
+        "id": "认证授权-api",
+        "text": "认证授权 API",
+        "depth": 2
+      },
+      {
+        "id": "个人资料-api",
+        "text": "个人资料 API",
+        "depth": 2
+      },
+      {
+        "id": "本地助理-api",
+        "text": "本地助理 API",
+        "depth": 2
+      },
+      {
+        "id": "云端任务-api",
+        "text": "云端任务 API",
+        "depth": 2
+      },
+      {
+        "id": "核销兑换码-api",
+        "text": "核销兑换码 API",
+        "depth": 2
+      },
+      {
+        "id": "返回码规范",
+        "text": "返回码规范",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/service-categories-enterprise",
+    "title": "服务类目（非个人主体）",
+    "group": "运营",
+    "headings": [
+      {
+        "id": "物流服务",
+        "text": "物流服务",
+        "depth": 2
+      },
+      {
+        "id": "教育服务",
+        "text": "教育服务",
+        "depth": 2
+      },
+      {
+        "id": "医疗服务",
+        "text": "医疗服务",
+        "depth": 2
+      },
+      {
+        "id": "政务民生",
+        "text": "政务民生",
+        "depth": 2
+      },
+      {
+        "id": "金融业",
+        "text": "金融业",
+        "depth": 2
+      },
+      {
+        "id": "交通服务",
+        "text": "交通服务",
+        "depth": 2
+      },
+      {
+        "id": "房地产服务",
+        "text": "房地产服务",
+        "depth": 2
+      },
+      {
+        "id": "生活服务",
+        "text": "生活服务",
+        "depth": 2
+      },
+      {
+        "id": "it科技",
+        "text": "IT科技",
+        "depth": 2
+      },
+      {
+        "id": "餐饮服务",
+        "text": "餐饮服务",
+        "depth": 2
+      },
+      {
+        "id": "旅游服务",
+        "text": "旅游服务",
+        "depth": 2
+      },
+      {
+        "id": "时政信息",
+        "text": "时政信息",
+        "depth": 2
+      },
+      {
+        "id": "文娱",
+        "text": "文娱",
+        "depth": 2
+      },
+      {
+        "id": "工具",
+        "text": "工具",
+        "depth": 2
+      },
+      {
+        "id": "电商平台",
+        "text": "电商平台",
+        "depth": 2
+      },
+      {
+        "id": "商家自营",
+        "text": "商家自营",
+        "depth": 2
+      },
+      {
+        "id": "商业服务",
+        "text": "商业服务",
+        "depth": 2
+      },
+      {
+        "id": "公益",
+        "text": "公益",
+        "depth": 2
+      },
+      {
+        "id": "社交",
+        "text": "社交",
+        "depth": 2
+      },
+      {
+        "id": "体育",
+        "text": "体育",
+        "depth": 2
+      },
+      {
+        "id": "汽车服务",
+        "text": "汽车服务",
+        "depth": 2
+      },
+      {
+        "id": "资讯",
+        "text": "资讯",
+        "depth": 2
+      },
+      {
+        "id": "深度合成",
+        "text": "深度合成",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/service-categories-individual",
+    "title": "服务类目（个人主体）",
+    "group": "运营",
+    "headings": [
+      {
+        "id": "物流服务",
+        "text": "物流服务",
+        "depth": 2
+      },
+      {
+        "id": "教育服务",
+        "text": "教育服务",
+        "depth": 2
+      },
+      {
+        "id": "交通服务",
+        "text": "交通服务",
+        "depth": 2
+      },
+      {
+        "id": "生活服务",
+        "text": "生活服务",
+        "depth": 2
+      },
+      {
+        "id": "餐饮服务",
+        "text": "餐饮服务",
+        "depth": 2
+      },
+      {
+        "id": "旅游服务",
+        "text": "旅游服务",
+        "depth": 2
+      },
+      {
+        "id": "工具",
+        "text": "工具",
+        "depth": 2
+      },
+      {
+        "id": "商业服务",
+        "text": "商业服务",
+        "depth": 2
+      },
+      {
+        "id": "体育",
+        "text": "体育",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/legal-basis-and-examples",
+    "title": "法规依据及示例",
+    "group": "运营",
+    "headings": [
+      {
+        "id": "物流服务",
+        "text": "物流服务",
+        "depth": 2
+      },
+      {
+        "id": "教育服务",
+        "text": "教育服务",
+        "depth": 2
+      },
+      {
+        "id": "医疗服务",
+        "text": "医疗服务",
+        "depth": 2
+      },
+      {
+        "id": "金融业",
+        "text": "金融业",
+        "depth": 2
+      },
+      {
+        "id": "交通服务",
+        "text": "交通服务",
+        "depth": 2
+      },
+      {
+        "id": "房地产服务",
+        "text": "房地产服务",
+        "depth": 2
+      },
+      {
+        "id": "生活服务",
+        "text": "生活服务",
+        "depth": 2
+      },
+      {
+        "id": "it科技",
+        "text": "IT科技",
+        "depth": 2
+      },
+      {
+        "id": "餐饮",
+        "text": "餐饮",
+        "depth": 2
+      },
+      {
+        "id": "时政信息",
+        "text": "时政信息",
+        "depth": 2
+      },
+      {
+        "id": "文娱",
+        "text": "文娱",
+        "depth": 2
+      },
+      {
+        "id": "电商平台",
+        "text": "电商平台",
+        "depth": 2
+      },
+      {
+        "id": "商家自营",
+        "text": "商家自营",
+        "depth": 2
+      },
+      {
+        "id": "商业服务",
+        "text": "商业服务",
+        "depth": 2
+      },
+      {
+        "id": "公益",
+        "text": "公益",
+        "depth": 2
+      },
+      {
+        "id": "社交",
+        "text": "社交",
+        "depth": 2
+      },
+      {
+        "id": "汽车服务",
+        "text": "汽车服务",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "url": "https://open.workbuddy.cn/docs/contact",
+    "title": "联系渠道",
+    "group": "联系我们",
+    "headings": [
+      {
+        "id": "咨询邮箱",
+        "text": "咨询邮箱",
+        "depth": 2
+      },
+      {
+        "id": "官方社群",
+        "text": "官方社群",
+        "depth": 2
+      }
+    ]
+  }
+]

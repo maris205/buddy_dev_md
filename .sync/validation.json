@@ -1,0 +1,135 @@
+{
+  "checked_at": "2026-09-05T08:56:33+00:00",
+  "status": "passed",
+  "pages": [
+    {
+      "path": "docs/what-is-open-platform.md",
+      "headings": 4,
+      "code_blocks": 0,
+      "tables": 0,
+      "images": 0,
+      "source_visible_characters": 339
+    },
+    {
+      "path": "docs/onboarding.md",
+      "headings": 12,
+      "code_blocks": 0,
+      "tables": 2,
+      "images": 8,
+      "source_visible_characters": 1352
+    },
+    {
+      "path": "docs/developer-profile.md",
+      "headings": 8,
+      "code_blocks": 0,
+      "tables": 0,
+      "images": 1,
+      "source_visible_characters": 1081
+    },
+    {
+      "path": "docs/skill.md",
+      "headings": 7,
+      "code_blocks": 5,
+      "tables": 1,
+      "images": 4,
+      "source_visible_characters": 1537
+    },
+    {
+      "path": "docs/connector.md",
+      "headings": 20,
+      "code_blocks": 7,
+      "tables": 13,
+      "images": 0,
+      "source_visible_characters": 10291
+    },
+    {
+      "path": "docs/expert.md",
+      "headings": 24,
+      "code_blocks": 9,
+      "tables": 12,
+      "images": 5,
+      "source_visible_characters": 7997
+    },
+    {
+      "path": "docs/expert-team.md",
+      "headings": 22,
+      "code_blocks": 10,
+      "tables": 11,
+      "images": 0,
+      "source_visible_characters": 11906
+    },
+    {
+      "path": "docs/buddy-app.md",
+      "headings": 22,
+      "code_blocks": 1,
+      "tables": 6,
+      "images": 12,
+      "source_visible_characters": 2800
+    },
+    {
+      "path": "docs/third-party-app.md",
+      "headings": 19,
+      "code_blocks": 0,
+      "tables": 5,
+      "images": 0,
+      "source_visible_characters": 2062
+    },
+    {
+      "path": "docs/openapi.md",
+      "headings": 91,
+      "code_blocks": 32,
+      "tables": 51,
+      "images": 0,
+      "source_visible_characters": 20754
+    },
+    {
+      "path": "docs/service-categories-enterprise.md",
+      "headings": 24,
+      "code_blocks": 0,
+      "tables": 23,
+      "images": 0,
+      "source_visible_characters": 49956
+    },
+    {
+      "path": "docs/service-categories-individual.md",
+      "headings": 10,
+      "code_blocks": 0,
+      "tables": 9,
+      "images": 0,
+      "source_visible_characters": 2118
+    },
+    {
+      "path": "docs/legal-basis-and-examples.md",
+      "headings": 346,
+      "code_blocks": 0,
+      "tables": 0,
+      "images": 226,
+      "source_visible_characters": 31654
+    },
+    {
+      "path": "docs/contact.md",
+      "headings": 3,
+      "code_blocks": 0,
+      "tables": 0,
+      "images": 1,
+      "source_visible_characters": 63
+    }
+  ],
+  "totals": {
+    "pages": 14,
+    "assets": 260,
+    "markdown_files": 24,
+    "local_links": 744,
+    "headings": 612,
+    "code_blocks": 64,
+    "tables": 133,
+    "images": 257
+  },
+  "failures": [],
+  "warnings": [],
+  "limits": [
+    "No live WorkBuddy execution or API correctness validation",
+    "Images checked by hash and signature, not OCR",
+    "External links not requested"
+  ]
+}

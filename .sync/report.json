@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-09-05T08:54:35+00:00",
+  "mode": "online",
+  "scope": "Public Chinese official navigation + linked /docs pages; no login or external-site recursion",
+  "navigation_pages": 14,
+  "discovered_pages": 14,
+  "successful_pages": 14,
+  "successful_assets": 260,
+  "errors": [],
+  "source_anomalies": [
+    {
+      "page": "https://open.workbuddy.cn/docs/skill",
+      "kind": "filename_linked_as_domain",
+      "label": "SKILL.md",
+      "href": "http://SKILL.md"
+    },
+    {
+      "page": "https://open.workbuddy.cn/docs/skill",
+      "kind": "filename_linked_as_domain",
+      "label": "SKILL.md",
+      "href": "http://SKILL.md"
+    },
+    {
+      "page": "https://open.workbuddy.cn/docs/skill",
+      "kind": "filename_linked_as_domain",
+      "label": "SKILL.md",
+      "href": "http://SKILL.md"
+    },
+    {
+      "page": "https://open.workbuddy.cn/docs/skill",
+      "kind": "filename_linked_as_domain",
+      "label": "SKILL.md",
+      "href": "http://SKILL.md"
+    },
+    {
+      "page": "https://open.workbuddy.cn/docs/openapi",
+      "kind": "url_label_target_mismatch",
+      "label": "https://www.workbuddy.cn/openapi/v2/user/profile",
+      "href": "https://www.workbuddy.cn/openapi/v2/localassistant"
+    },
+    {
+      "page": "https://open.workbuddy.cn/docs/openapi",
+      "kind": "url_label_target_mismatch",
+      "label": "https://www.workbuddy.cn/openapi/v2/user/phoneverification",
+      "href": "https://www.workbuddy.cn/openapi/v2/localassistant"
+    }
+  ],
+  "changes": [],
+  "removed_from_discovery": []
+}

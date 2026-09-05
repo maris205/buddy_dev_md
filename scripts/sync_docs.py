@@ -406,7 +406,7 @@ def generate_indexes(nav, pages, assets, report, offline):
         lines.extend([f'### {meta["title"]}', ""])
         lines.extend(f'- [{h["text"]}](../{meta["path"]}#{quote(h["id"])})' for h in meta["headings"] if h["level"] == 2 and h["id"])
         lines.append("")
-    write(ROOT / "wiki/index.md", "\n".join(lines) + "\n")
+    write(ROOT / "wiki/index.md", "\n".join(lines).rstrip() + "\n")
     rows = ["# 图片与附件索引", "", "自动提取自官方正文。文件保持原始字节；不运行附件中的程序。", "",
             "| 本地文件 | 大小 | 来源 |", "| --- | ---: | --- |"]
     for source, meta in assets.items():

@@ -27,11 +27,25 @@
 
 仅阅读文档不需要安装 Python 依赖或配置 MCP。使用 Git 克隆的副本可通过 `git pull` 更新；要检查官网变化，见下方“更新与验证”。
 
-### 能封装成 Skill 吗？
+### 使用 workbuddy-dev Skill（推荐）
 
-可以。建议做一个轻量的 `workbuddy-dev` Skill：在 `SKILL.md` 中定义触发条件和阅读流程，按需读取本地知识库，避免把所有文档和图片复制进技能。使用时由用户提供知识库路径，方便换电脑和独立更新。
+仓库已附带 [workbuddy-dev Skill](.agents/skills/workbuddy-dev/SKILL.md)。在 Codex 中打开本仓库后即可使用；如果没有出现在技能列表中，重新打开 Codex。
 
-Codex 支持在项目的 `.agents/skills/workbuddy-dev/SKILL.md` 中定义技能；主文件需要 `name` 和 `description`。这是后续封装方案，当前仓库直接用上面的提示词即可。参见 [OpenAI 官方 Skill 指南](https://learn.chatgpt.com/docs/build-skills)。
+```text
+使用 $workbuddy-dev 帮我开发一个 WorkBuddy Skill，用于把会议记录整理成行动清单。
+代码放在我的开发项目中。
+```
+
+**希望在其他项目中使用**，可向 Codex 发送下面这句话安装一次：
+
+```text
+使用 $skill-installer 安装这个技能：
+https://github.com/maris205/buddy_dev_md/tree/main/.agents/skills/workbuddy-dev
+```
+
+安装后直接调用 `$workbuddy-dev`；有本地知识库时附上路径，例如“知识库在 `D:\paper\buddy_dev_md`”。没有本地副本时，技能会按需读取 GitHub 文档，需要网络访问。技能本身没有运行依赖，也不复制整库图片和附件。
+
+独立安装的技能与知识库分别更新；仓库内置技能随 `git pull` 更新。Codex 技能发现机制参见 [OpenAI 官方 Skill 指南](https://learn.chatgpt.com/docs/build-skills)。
 
 ## 内容边界
 
